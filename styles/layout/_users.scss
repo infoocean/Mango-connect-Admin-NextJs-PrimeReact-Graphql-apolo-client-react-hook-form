@@ -1,0 +1,217 @@
+.inputfieldcss {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .inputfieldcss {
+    width: 100%;
+  }
+  .dialogwidth {
+    width: 310px !important;
+  }
+  .btnsave {
+    width: 100%;
+  }
+}
+.dialogwidth {
+  width: 400px;
+}
+.spinnercss {
+  position: relative !important;
+  margin: 0 auto !important;
+  width: 50px !important;
+  height: 17px !important;
+  display: inline-block !important;
+  animation: custom-progress-spinner-color 6s ease-in-out infinite;
+}
+.btnsave {
+  background-color: #fd6e0a !important;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+.btnsave:hover {
+  background-color: transparent !important;
+  border-color: #fd6e0a;
+  color: #fd6e0a;
+}
+.btnsave:focus {
+  box-shadow: none !important;
+}
+.toggleBtn {
+  background-color: #fd6e0a !important;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+.toggleBtn:hover {
+  background-color: transparent !important;
+  border-color: #fd6e0a;
+  color: #fd6e0a;
+}
+.toggleBtn:focus {
+  box-shadow: none !important;
+}
+.displaynone {
+  display: none !important;
+}
+.wrapperclass {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.inputSearch {
+  width: fit-content;
+}
+h4.headingtext {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+.linecs {
+  border: 1px solid #ededed;
+  margin-top: 1px;
+  margin-bottom: 25px;
+}
+.headingcs {
+  /* position: relative; */
+  /* top: 22px; */
+  display: flex;
+  align-items: center;
+}
+.deletedbtncs {
+  margin-top: 10px;
+  background-color: #fd6e0a !important;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+.deletedbtncs:hover {
+  background-color: transparent !important;
+  border-color: #fd6e0a;
+  color: #fd6e0a;
+}
+input.p-inputtext.p-component.searchboxcss.searchboxcss {
+  border: 2px solid #fd6e0a;
+}
+input.p-inputtext.p-component.searchboxcss.searchboxcss:focus {
+  border: 2px solid #fd6e0a !important;
+  box-shadow: none !important;
+}
+.searchIcon:hover {
+  background: #fd6e0a;
+  color: #ffffff;
+  border-color: #fd6e0a;
+}
+.searchIcon {
+  background: #fd6e0a;
+  color: #ffffff;
+  border-color: #fd6e0a;
+}
+
+.p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  color: black;
+  background: #ffdebf;
+}
+
+.p-dropdown:not(.p-disabled):hover {
+  border-color: #fd6e0a;
+  box-shadow: none !important;
+}
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  color: white;
+  background: #fd6e0a;
+}
+.p-dropdown .p-dropdown-trigger:hover {
+  background: transparent;
+  color: #fd6e0a;
+  width: 3rem;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  background: #ededed;
+  color: #242424;
+}
+
+.chckboxcss .p-checkbox .p-checkbox-box.p-highlight {
+  border-color: #fd6e0a;
+  background: #fd6e0a;
+}
+.chckboxcss .p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+  border-color: #fd6e0a !important;
+  box-shadow: none !important;
+}
+
+button.pencilcs.p-button.p-component.p-button-icon-only {
+  background: #fd6e0a;
+  color: #ffffff;
+  border-color: #fd6e0a;
+}
+
+.pencilcs:hover {
+  color: #fd6e0a !important;
+  background: #ffffff !important;
+  border-color: #fd6e0a !important;
+}
+.pencilcs:focus {
+  box-shadow: none !important;
+}
+.checckkboxcs {
+  display: none !important;
+}
+.chckboxcss .p-checkbox .p-checkbox-box {
+  border: 2px solid #d1d5db !important;
+  box-shadow: none !important;
+}
+
+.datacsstable .p-checkbox .p-checkbox-box:hover {
+  color: #ffffff !important;
+  border-color: #fd6e0a !important;
+  box-shadow: none !important;
+}
+
+.datacsstable .p-checkbox .p-checkbox-box {
+  color: #ffffff !important;
+  border-color: #d1d5db !important;
+  box-shadow: none !important;
+}
+.datacsstable .p-checkbox .p-checkbox-box.p-highlight {
+  border-color: #fd6e0a !important;
+  background: #fd6e0a !important;
+}
+
+.multipledelete {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+.p-paginator-bottom.p-paginator.p-component {
+  margin-top: 15px !important;
+}
+.btndeletepopup {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+.popupdel {
+  width: fit-content;
+}
+.popup button.p-dialog-header-icon.p-dialog-header-close.p-link {
+  display: none;
+}
+.deleteiconcs {
+  display: flex;
+}
+button.exclamanition.p-button.p-button-icon-only.p-component {
+  border: none;
+  background: none;
+  color: #645b5b;
+  padding: 0px;
+  width: 27px;
+  height: 20px;
+}
+
+.popup .p-dialog-title {
+  border-bottom: 1px solid #c3c0c0;
+  padding: 1px 0px 5px 1px;
+}

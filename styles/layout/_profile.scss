@@ -1,0 +1,55 @@
+.profilegrid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.labelprofilecss {
+  font-size: 16px;
+}
+.inputcss {
+  width: 50%;
+}
+
+@media (max-width: 991px) {
+  .inputcss {
+    width: 100%;
+  }
+  .btnsave {
+    width: 100%;
+  }
+}
+
+.spinnercss {
+  position: relative !important;
+  margin: 0 auto !important;
+  width: 50px !important;
+  height: 17px !important;
+  display: inline-block !important;
+  animation: custom-progress-spinner-color 6s ease-in-out infinite;
+}
+.btnsave {
+  background-color: #fd6e0a !important;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+.btnsave:hover {
+  background-color: transparent !important;
+  border-color: #fd6e0a;
+  color: #fd6e0a;
+}
+.btnsave:focus {
+  box-shadow: none !important;
+}
+.toggleBtn {
+  background-color: #fd6e0a !important;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+.toggleBtn:hover {
+  background-color: transparent !important;
+  border-color: #fd6e0a;
+  color: #fd6e0a;
+}
+.toggleBtn:focus {
+  box-shadow: none !important;
+}

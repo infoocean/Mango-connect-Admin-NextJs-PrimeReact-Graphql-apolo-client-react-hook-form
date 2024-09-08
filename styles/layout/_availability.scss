@@ -1,0 +1,198 @@
+.m-0.mainAvailablediv {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+.avail2 {
+  // border-left: 1px solid grey;
+  padding-left: 10px;
+}
+
+.avaliablealign {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.availableCheckbox {
+  width: 16px;
+  height: 16px;
+}
+// h3.headingAvailable {
+//   padding: 0px 20px 5px 14px;
+//   font-size: 15px;
+//   font-weight: 600;
+// }
+select.availabletime {
+  // adding: 2px;
+  // fontp-size: 15px;
+  // background: white;
+  // color: #3a3a3a;
+  // border-radius: 6px;
+  // width: 68px;
+  // height: 41px;
+  // text-align: center;
+  // margin-bottom: 10px;
+  padding: 2px;
+  font-size: 15px;
+  background: white;
+  color: #3a3a3a;
+  border-radius: 6px;
+  width: 85px;
+  height: 41px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+// .availablebtn {
+//   background: none;
+//   color: #363636;
+//   margin-left: 10px;
+//   border: none;
+// }
+
+.avail1 h5 {
+  font-weight: 600;
+}
+.availabletime .option {
+  padding: 10px !important;
+}
+// .available2nddiv {
+//   display: flex;
+//   align-items: center;
+//   flex-wrap: nowrap;
+//   flex-direction: row;
+//   justify-content: space-between;
+// }
+// ul.availablelistdiv {
+//   text-align: center;
+//   margin-top: -3px;
+//   margin-bottom: 5px;
+//   margin-left: 53px;
+//   margin-right: 4px;
+// }
+// .availablecross {
+//   background: none;
+//   color: #363636;
+//   margin-left: 14px;
+//   border: none;
+//   position: relative;
+//   border: none;
+//   margin-right: -4px;
+// }
+
+.availablelistdiv li {
+  list-style-type: none;
+}
+.slotItemContainer {
+  display: flex;
+  align-items: center;
+}
+
+// .slotItemStart {
+//   flex: 1 1;
+//   padding: 10px;
+//   font-size: 15px;
+//   background: white;
+//   color: #3a3a3a;
+//   border-radius: 6px;
+//   border: 1px solid grey;
+// }
+
+// .slotItemEnd {
+//   flex: 1;
+//   padding: 10px;
+//   font-size: 15px;
+//   background: white;
+//   color: #3a3a3a;
+//   border-radius: 6px;
+//   border: 1px solid grey;
+// }
+p.distancehypen {
+  padding: 4px;
+  margin-top: 12px;
+}
+////////////////////////
+///
+///
+.slotItemStart {
+  flex: 1 1;
+  /* padding: 10px; */
+  font-size: 15px;
+  background: white;
+  color: #3a3a3a;
+  border-radius: 6px;
+  /* border: 1px solid grey; */
+}
+.slotItemEnd {
+  flex: 1 1;
+  /* padding: 10px; */
+  font-size: 15px;
+  background: white;
+  color: #3a3a3a;
+  border-radius: 6px;
+}
+
+// ul.availablelistdiv {
+//   text-align: center;
+//   margin-top: -3px;
+//   margin-bottom: 5px;
+//   margin-left: 54px;
+//   margin-right: 0px;
+// }
+.available2nddiv {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+ul.availablelistdiv {
+  text-align: center;
+  margin-bottom: 5px;
+  /* margin-right: 0px; */
+  margin-left: -9px;
+}
+h3.headingAvailable {
+  font-size: 15px;
+  font-weight: 600;
+  position: relative;
+  top: -2px;
+  padding-left: 29px;
+  width: 60px;
+  text-align: left;
+}
+.availablecross {
+  background: none;
+  color: #363636;
+  margin-left: 22px;
+  border: none;
+  position: relative;
+  border: none;
+  top: -11px;
+}
+.slotdiv {
+  margin-left: 9px;
+}
+.availablebtn {
+  background: none;
+  color: #363636;
+  margin-left: 18px;
+  border: none;
+}
+.text-red-500.unavailable {
+  padding: 0px 78px;
+  position: relative;
+  top: -1px;
+}
+
+////////////////////////calender css ///////////////
+.available2nddiv11 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  justify-content: flex-start;
+}

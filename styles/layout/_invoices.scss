@@ -1,0 +1,218 @@
+.invoice .p-dialog-header {
+  background: #c3c3c3;
+  color: black;
+  text-align: center;
+  padding: 16px;
+}
+.p-grid.p-fluid.invo {
+  margin-top: 19px;
+}
+.para1 {
+  display: flex;
+  justify-content: space-between;
+}
+.para1payment {
+  display: flex;
+  justify-content: space-between;
+}
+p.headinhpara {
+  padding: 0px;
+  margin: 1px;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+}
+p.headinghpara {
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+}
+p.headinhpara1 {
+  padding: 0px;
+  margin: 0px;
+  font-weight: 500;
+  color: black;
+  font-size: 14px;
+}
+p.headinghpara1 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+}
+.payment {
+  display: flex;
+  gap: 12px;
+}
+p.headinhpara_payment {
+  padding: 0px;
+  margin: 0px;
+  color: #333232;
+  width: 104px;
+}
+@media (max-width: 991px) {
+  .payment {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    gap: 0px;
+    margin-right: 10px;
+  }
+  p.headinhpara_payment {
+    margin: 0px;
+    color: #333232;
+    width: 108px;
+    padding: 0px;
+  }
+  p.headinghpara_payment {
+    padding: 1px 0px 0px 6px !important;
+    margin: 0px;
+    font-size: 13.2px !important;
+  }
+  .transactionIdcss {
+    display: inline-block;
+    width: 150px;
+    overflow-wrap: break-word;
+  }
+  .popup .p-dialog-title {
+    border-bottom: none;
+    padding: 1px 0px 5px 1px;
+  }
+  .p-dialog .p-dialog-header {
+    // padding: 15px 0px 4px 25px;
+    padding: none;
+  }
+  .deleteiconcs {
+    display: flex;
+    margin-top: 11px;
+  }
+  //////////////////invoice css////////////////
+  .invoicecsstable.p-datatable .p-datatable-thead > tr > th {
+    text-align: left;
+    padding: 7px 5px;
+    border: 1px solid #e5e7eb;
+    border-width: 0 0 1px 0;
+    font-weight: 700;
+    color: #374151;
+    background: #f9fafb;
+    font-size: 13px;
+    transition: box-shadow 0.2s;
+  }
+  .invoicecsstable .p-datatable-tbody > tr > td {
+    text-align: left !important;
+    border: 1px solid #e5e7eb !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 7px 5px !important;
+    font-size: 11px !important;
+  }
+
+  button.pencilcs.p-button.p-button-icon-only {
+    width: 2.5rem;
+    padding: 0.75rem 0;
+    height: 2.5rem;
+  }
+}
+p.headinghpara_payment {
+  padding: 1px;
+  margin: 0px;
+  font-size: 13.2px;
+}
+.invoicecsstable.p-datatable .p-column-header-content {
+  display: flex;
+  justify-content: center;
+}
+.invoicecsstable.p-datatable .p-datatable-tbody > tr > td {
+  text-align: center;
+  border: 1px solid #e5e7eb;
+  border-width: 0 0 1px 0;
+  padding: 1rem 1rem;
+}
+span.invoicewrap {
+  display: flex;
+}
+p.paragraph {
+  padding: 0px;
+  margin: 0px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #787878;
+}
+.invoicesp {
+  display: flex;
+  margin-bottom: 5px;
+}
+.innerdiv {
+  width: 50%;
+}
+p.emailcsinv {
+  margin-bottom: 6px;
+}
+
+.flexfiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+p.invoicehead {
+  font-weight: 500;
+  font-size: 16px;
+  color: #111827;
+}
+p.subhead {
+  font-size: 13px;
+}
+.card.mb-0.card1.card1a {
+  border-right: none;
+}
+.h5heading {
+  background: #d1d1d1;
+  /* margin-left: 2px; */
+  padding: 10px 0px 8px 4px;
+}
+p.para1divv {
+  font-weight: 500;
+  color: #252525;
+}
+.popuprefund {
+  margin-bottom: 28px;
+  margin-top: 9px;
+}
+.applybtnreturn {
+  width: 45%;
+  margin-top: 12px;
+  border-radius: 35px;
+  background: #fd6e0a !important;
+  color: white !important;
+  border-color: #fd6e0a;
+}
+.applybtnreturn:hover {
+  width: 45%;
+  margin-top: 12px;
+  border-radius: 35px;
+  color: #fd6e0a !important;
+  background: white !important;
+  border-color: #fd6e0a;
+}
+p.para1divvrefund {
+  font-weight: 700;
+  color: #fd6e0a;
+  font-size: 16px;
+}
+.card.mb-0.cardblock.flexfiv {
+  border-bottom: 1px solid #c7c7c7;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-radius: 1px;
+}
+.grid.servicess.invoice {
+  margin-top: 8px;
+}
+.innerdiv1 {
+  width: 50%;
+}
+.innerdiv1 .p-inputgroup {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  height: 34px !important;
+}

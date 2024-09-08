@@ -1,0 +1,123 @@
+.headingtoday {
+  background: #f1f1f1;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+}
+.tablebody {
+  padding: 10px;
+  border-bottom: 1px solid #c3c3c3;
+}
+.pastdatecss {
+  width: 100%;
+}
+.upcomingdatecss {
+  padding: 10px;
+  border-bottom: 1px solid #c3c3c3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.headingupcoming {
+  background: #f1f1f1;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  margin-top: -2px !important;
+}
+.headingpast {
+  background: #f1f1f1;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  margin-top: -2px !important;
+}
+table.table.upcomingdatacss {
+  width: 100%;
+}
+
+.btnLink {
+  color: #fd6e0a !important;
+  background: transparent !important;
+  border: transparent !important;
+  display: contents;
+}
+.btnLink:hover {
+  color: #fd6e0a !important;
+  background: transparent !important;
+  border: transparent !important;
+}
+.btnLink:focus {
+  color: #fd6e0a !important;
+  background: transparent !important;
+  border: transparent !important;
+  box-shadow: none !important;
+}
+.btnLink:active {
+  color: #fd6e0a !important;
+  background: transparent !important;
+  border: transparent !important;
+}
+
+.todaydatacss td {
+  // width: 31%;
+  padding: 8px;
+}
+.todaydatacss {
+  width: 100%;
+}
+
+.upcomingdatacss td {
+  padding: 8px 0px 10px 0px;
+}
+.upcomingdatacss {
+  width: 100%;
+}
+
+.pastdatecss td {
+  // width: 31%;
+  padding: 8px;
+}
+.pastdatecss {
+  width: 100%;
+}
+.tdone {
+  position: relative;
+  // top: -12px;
+}
+tr.tablerowtoday {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+tr.tablerowpast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+td.paststatus {
+  width: 9%;
+}
+////media query----
+
+@media (max-width: 991px) {
+  tr.tablerowtoday {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .upcomingdatecss {
+    padding: 10px;
+    border-bottom: 1px solid #c3c3c3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  tr.tablerowpast {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

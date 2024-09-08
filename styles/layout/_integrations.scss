@@ -1,0 +1,188 @@
+img.googlemeet {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background: #e9e9e9;
+  border-radius: 50px;
+  padding: 7px;
+}
+img.zoom {
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.integrationdiv {
+  display: flex;
+  width: 70%;
+  gap: 50px;
+  padding: 5px;
+}
+.googleMain p {
+  color: cornflowerblue;
+  cursor: pointer;
+  margin-top: 3px;
+}
+.meetmain p {
+  color: cornflowerblue;
+  cursor: pointer;
+  margin-top: 3px;
+}
+.checkbox1div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.checkbox1.p-inputswitch.p-component {
+  margin-left: 25px;
+  margin-top: 7px;
+}
+.meetmain .checkbox2div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.checkbox2.p-inputswitch.p-component {
+  margin-left: 25px;
+  margin-top: 7px;
+}
+.googleMain {
+  padding: 5px;
+}
+.meetmain {
+  padding: 5px;
+}
+.instructionLink {
+  color: cornflowerblue;
+  text-decoration: underline;
+}
+.integrationwrap {
+  width: 100%;
+}
+.grid1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+  margin-top: -0.5rem;
+  flex-direction: row;
+}
+@media (max-width: 991px) {
+  .grid1 {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+    flex-direction: column;
+  }
+  .successdiv .instructionsdiv {
+    text-align: center;
+  }
+  .instructiongrid .col-12 {
+    flex: 0 0 auto;
+    padding: 0.5rem;
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+  .instructiongrid {
+    margin-top: -100% !important;
+  }
+}
+p.connectcss {
+  display: contents;
+  font-weight: 500;
+  color: grey;
+}
+.grid.availabiltyc {
+  margin-top: 20px;
+}
+h5.integrationmeettext {
+  padding-top: 19px;
+  margin: 0 auto;
+  text-align: center;
+  color: #eb3737;
+}
+h6.headingIntegration {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+span.modecsstest {
+  color: grey;
+}
+
+///instruction
+
+.flex.flex-column.align-items-center.justify-content-center.instructioncss {
+  width: 100% !important;
+  padding: 12px !important;
+}
+.instructiongrid {
+  margin-top: 5% !important;
+}
+.instructionsdiv .div2 {
+  display: flex;
+  gap: 8px;
+}
+.instructionsdiv .linkcolor {
+  color: #12d488 !important;
+}
+img.imageinst {
+  margin-bottom: 10px;
+  width: 70%;
+  height: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+.instructionsdiv p {
+  font-size: 18px;
+}
+p.step {
+  // width: 80px;
+  font-weight: 700;
+}
+
+.flex.flex-column.align-items-center.justify-content-center.success {
+  align-items: center !important;
+  width: 100%;
+  // background: burlywood;
+  height: 90vh;
+  padding: 20px 20px 20px 20px;
+  position: fixed;
+  top: 5%;
+}
+.successdiv {
+  border-radius: 9px;
+  padding: 1rem;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid grey; */
+  background: #ededed;
+}
+.successfulauth {
+  color: #21a362;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+}
+.FailureErr {
+  text-align: center;
+  font-size: 25px !important;
+  font-weight: 600;
+  color: #f13f3f;
+}
+.failureCss {
+  text-align: center;
+}
+.flex.flex-column.gap-2.copytextfieldt {
+  gap: 2px !important;
+}
+.mainchild1 {
+  text-align: center;
+}

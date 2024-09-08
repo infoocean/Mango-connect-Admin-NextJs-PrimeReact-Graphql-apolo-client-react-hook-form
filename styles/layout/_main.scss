@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-color: var(--surface-ground);
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.layout-wrapper {
+  min-height: 100vh;
+}
+img.imagecss {
+  width: 187px;
+}
+button.w-full.p-3.text-xl.buttoncss.p-button.p-component {
+  /* background: bisque; */
+  background-color: #fd6e0a !important;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+
+button.w-full.p-3.text-xl.buttoncss.p-button.p-component:hover {
+  background-color: transparent !important;
+  border-color: #fd6e0a;
+  color: #fd6e0a;
+}
+.text-900.text-3xl.font-medium.mb-3.heading {
+  color: #15295f !important;
+}
+
+label.labelcss {
+  font-size: 12px;
+}
+.gridcss {
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  grid-gap: 20px;
+}
+.gridbuttoncss {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.verifycss input.p-inputtext.p-component.verifydigit.verifydigit {
+  width: 38px !important;
+}
+button.w-full.p-2.text-xl.buttoncss.p-button.p-component {
+  /* background: bisque; */
+  background-color: #fd6e0a !important;
+  border: 2px solid transparent;
+  color: #ffffff;
+}
+
+button.w-full.p-2.text-xl.buttoncss.p-button.p-component:hover {
+  background-color: transparent !important;
+  border-color: #fd6e0a;
+  color: #fd6e0a;
+}
+
+.topbar .p-submenu-header {
+  display: none !important;
+}
+
+//validation css
+
+.form-demo .card {
+  min-width: 450px;
+}
+.form-demo .card form {
+  margin-top: 2rem;
+}
+.form-demo .card .field {
+  margin-bottom: 1.5rem;
+}
+@media screen and (max-width: 960px) {
+  .form-demo .card {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .form-demo .card {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.min-w-screen {
+  min-width: fit-content !important;
+}
+.spinnerclass .p-progress-spinner {
+  width: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.spinnerclass {
+  display: flex;
+  justify-content: center;
+}
